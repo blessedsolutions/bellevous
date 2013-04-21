@@ -1,0 +1,292 @@
+/*
+Theme Name: Bellevous
+Theme URI: http://www.bonamyklu.co.uk/
+Description: A premium theme by Bonamy Klu.
+Version: 1.0
+Author: Bonamy Klu
+Author URI: http://www.bonamyklu.co.uk
+*/
+@CHARSET "UTF-8";
+/*
+@font-face {
+ font-family: "ErasLightITC";
+ src: url("css/Eraslght.TTF") format("truetype");
+}
+@font-face {
+ font-family: "ErasLightITC";
+ src: url("css/Eraslght.eot") format("truetype");
+}
+*/
+
+@font-face {  
+  font-family: "ErasLightITC";  
+  src: url(css/Eraslght.eot ); /* IE */  
+  src: local("ErasLightITC"), url(css/Eraslght.TTF) format("truetype"); /* non-IE */  
+}  
+ 
+
+html {
+	/*height: 100%;*/
+}
+
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	/*font-family: Helvetica, Arial, Sans-Serif; */
+	/*line-height: 28px;*/
+	font-family: Verdana, Arial, sans-serif;
+	background: url(images/site/site_bg_more_fade_with_bleed.jpg) top left no-repeat;
+	background-color:#83603a;   
+	/*background: url(images/homepage_bg.jpg) center top no-repeat;*/
+	color: #333333;
+	font-size: 17px;
+	height: 100%;
+	
+}
+
+#container {
+	width: 900px; 
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left:232px; 
+	padding: 0 85px 0 85px;
+	/*border: 2px solid red;*/
+	background-image: url("images/site/container_bg.png");
+	min-height: 100%;
+	height: 100%;
+}
+
+#content {
+	/*border: 2px solid black;*/
+	height: 608px;
+	overflow: auto;
+}
+/*
+#main {
+padding-bottom: 0px;
+margin: 0px;
+height: 20px;
+
+}
+*/
+#header {
+	/*border: 2px solid black;*/
+	float: none;
+	clear: both;
+	margin-left: -205px;
+}
+
+#siteLogo {
+	float: left;
+}
+
+	#siteLogo img {
+		border: none;
+	}
+
+#menu {
+	padding-top: 100px;
+	float: left;
+	color: #ffffff;
+	font-weight: lighter;
+}
+
+#pages {
+	font-size: 42px;
+	list-style: none;
+	font-family: ErasLightITC, Verdana, Arial, sans-serif;
+}
+
+	#pages li {
+		margin-left: 28px;	
+		float: left;
+		padding: 0px 6px;
+	}
+	
+		#pages li:hover {
+			background-image: url("images/site/menu_bg_aqua.png");	
+		}
+	
+	#pages a {
+		color: #ffffff;
+		text-decoration: none;
+	}
+	
+	
+
+
+	
+div.break {
+	float: none;
+	clear: both;	
+}
+
+h1 {
+	font-size: 3em; /* 51px*/
+	color: #333333;
+	font-weight: lighter;
+	margin-bottom: 40px;	
+	line-height: 39px;
+}
+
+h2 {
+	font-size: 1.11em;
+	font-weight: bold;
+}
+
+p {
+	line-height: 28px;
+	color: #333333;
+}
+
+address {
+	font-size:150%;
+	line-height: 36px;
+	margin-left: 7px;
+} 
+	
+
+img {
+	border: 2px solid #95c1d0;	
+}
+
+#footer {
+	/*border: 1px solid green;*/
+	margin: 50px auto;
+	margin-bottom: 0px;
+	text-align: center;
+	font-size: 50%;
+}		
+
+	
+.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}	
+
+#treatmentsTable {
+}
+
+	#treatmentsTable td {
+		padding-bottom: 70px;
+		padding-right: 50px;
+		
+	}
+
+#cuform {
+	border: none !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	/*background-color: black;*/
+	background-image: none !important;
+	-webkit-box-shadow:  0px 0px 0px 0px !important;
+}
+
+
+#tinyform {
+	width: 400px !important;
+	/*height: 34px;*/
+	/*background-color: red;*/
+	margin-left: 0px !important;
+	margin-top: -0px !important;
+	margin-bottom: 0px !important;
+	
+	border: none !important;
+	padding:0px !important;
+	-webkit-box-shadow:  0px 0px 0px 0px !important;
+	
+}
+
+.cuf_field {
+	height: 34px !important;
+	padding: 0px 5px !important;
+	margin: 0px 32px 0px 0px !important;
+	margin-bottom: 27px !important;
+	/*line-height: 0px !important;*/
+	/*font-size: px !important;*/
+	color: #333333 !important;
+	border: 3px solid #90d0ec !important;
+	border-bottom-left-radius: 3px 3px !important;
+	border-bottom-right-radius: 3px 3px !important;
+	border-top-left-radius: 3px 3px !important;
+	border-top-right-radius: 3px 3px !important;
+	background-color: #dbf1f7 !important;
+}
+	
+	
+.cuf_textarea {
+	height: 100px !important;
+	padding: 0px 5px !important;
+	margin: 0px !important;
+	margin-bottom: 27px !important;
+	/*line-height: 0px !important;*/
+	/*font-size: px !important;*/
+	color: #333333 !important;
+	border: 3px solid #90d0ec !important;
+	background-color: #dbf1f7 !important;
+}	
+	
+	
+.cuf_label {
+	font-size: 1.11em !important;
+	font-weight: bold !important;
+}
+
+.cuf_label label[for=cuf_captcha] {
+	font-size: 0.5 !important;
+}
+
+#contactsubmit {
+	
+	background: #90d0ec repeat-x !important;
+	border-bottom-left-radius: 5px 5px !important;
+	border-bottom-right-radius: 5px 5px !important;
+	border-top-left-radius: 5px 5px !important;
+	border-top-right-radius: 5px 5px !important;
+	margin-right: 5px !important;
+	margin-top: 15px !important;
+	margin-bottom: 0px !important;
+	clear:both !important;
+	float:none !important;
+	
+}
+
+#cuf_captcha {
+	background-color: #dbf1f7 !important;
+}
+
+#ContactTable {
+	background-image: url("images/site/container_bg.png");
+	padding:0px;
+	margin:0px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+}
+
+#ContactTable iframe {
+	border: 3px solid #90d0ec;
+	/*margin-left: 32px;*/
+	margin-bottom: 10px;
+	margin-top: 22px;
+}
+
+#ContactTableRhsColumn
+{
+	padding-left: 20px;
+}
+	

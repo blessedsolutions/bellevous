@@ -1,0 +1,114 @@
+@CHARSET "UTF-8";
+
+@font-face {
+ font-family: ErasLightITC;
+ src: url("Eraslght.TTF") /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: ErasLightITC;
+ src: url("Eraslght.eot") /* EOT file for IE */
+}
+
+
+
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+
+body {
+	/*font-family: Helvetica, Arial, Sans-Serif; */
+	/*line-height: 28px;*/
+	font-family: Verdana, Arial, sans-serif;
+	background: #eee url(../images/site/site_bg.jpg) center top no-repeat;
+	color: #333333;
+	font-size: 17px;
+	
+}
+
+#container {
+	width: 840px; 
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left:232px; 
+	padding: 0 85px 0 85px;
+	/*border: 2px solid red;*/
+	background-image: url("../images/site/container_bg.png");
+}
+
+#header {
+	/*border: 2px solid black;*/
+	float: none;
+	clear: both;
+	margin-left: -205px;
+}
+
+#siteLogo {
+	float: left;
+}
+
+	#siteLogo img {
+		border: none;
+	}
+
+#menu {
+	padding-top: 100px;
+	float: left;
+	color: #ffffff;
+	font-weight: lighter;
+}
+
+#pages {
+	font-size: 42px;
+	list-style: none;
+	font-family: ErasLightITC, Verdana, Arial, sans-serif;
+}
+
+	#pages li {
+		margin-left: 28px;	
+		float: left;	
+	}
+	
+	#pages a {
+		color: #ffffff;
+		text-decoration: none;
+	}
+	
+	#pages a:HOVER {
+		font-weight: bold;
+	}
+
+
+	
+div.break {
+	float: none;
+	clear: both;	
+}
+
+h1 {
+	font-size: 51px;
+	color: #333333;
+	font-weight: lighter;
+	margin-bottom: 40px;	
+	line-height: 39px;
+}
+
+p {
+	line-height: 28px;
+	color: #333333;
+}
+
+img {
+	border: 2px solid #95c1d0;	
+}
+
+#footer {
+	/*border: 1px solid green;*/
+	margin: 50px auto;
+	margin-bottom: 0px;
+	text-align: center;
+	font-size: 50%;
+}		
+
+		
+	
+	

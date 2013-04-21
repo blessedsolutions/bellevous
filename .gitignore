@@ -9,3 +9,9 @@ fabfile.py
 fabfile.pyc
 fabconfig.py
 fabconfig.pyc
+fabconfig.py~
+fabfile.py~
+db_dumps
+tinymce-advanced.3.5.8.zip
+mce-table-buttons.2.0.zip
+config/
