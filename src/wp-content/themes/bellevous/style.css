@@ -143,9 +143,12 @@ p {
 }
 
 address {
-	font-size:150%;
-	line-height: 36px;
+	font-size:155%;
+	line-height: 32px;
 	margin-left: 7px;
+	font-style: normal;
+	font-weight: bold;
+	color: white;
 } 
 	
 
@@ -232,7 +235,7 @@ img {
 	height: 100px !important;
 	padding: 0px 5px !important;
 	margin: 0px !important;
-	margin-bottom: 27px !important;
+	margin-bottom: 20px !important;
 	/*line-height: 0px !important;*/
 	/*font-size: px !important;*/
 	color: #333333 !important;
@@ -267,6 +270,11 @@ img {
 
 #cuf_captcha {
 	background-color: #dbf1f7 !important;
+}
+
+
+.cuf_captcha_desc {
+	font-size: 70%;
 }
 
 #ContactTable {
