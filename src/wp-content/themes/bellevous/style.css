@@ -60,9 +60,9 @@ body {
 }
 
 #content {
-	/*border: 2px solid black;*/
 	height: 608px;
 	overflow: auto;
+	padding-right:7px;
 }
 /*
 #main {
@@ -72,8 +72,35 @@ height: 20px;
 
 }
 */
+
+
+
+/**
+*Use to implement the fixed menu header so that content scrolls underneath it
+*/
+/*
+#content {
+	height: 608px;
+	overflow: auto;
+}
+
 #header {
-	/*border: 2px solid black;*/
+	float: none;
+	clear: both;
+	width:1190px;
+	margin-left: -205px;
+	position: fixed;
+	background-attachment:fixed;
+	background: url(images/site/menu_bg_fixed3.jpg);
+	background-repeat: no-repeat;
+	background-position: 2px 1px;
+}
+
+*/
+
+
+
+#header {
 	float: none;
 	clear: both;
 	margin-left: -205px;
@@ -92,6 +119,20 @@ height: 20px;
 	float: left;
 	color: #ffffff;
 	font-weight: lighter;
+}
+
+#SiteTelephoneNumber {
+	/*border: 1px solid red;*/
+	position: absolute;
+	z-index: 4;
+	/*margin-left: 425px;*/
+	margin-left: 80px;
+	/*margin-top: 35px;*/
+	margin-top: 40px;
+	font-size: 160%;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: ErasLightITC, Verdana, Arial, sans-serif;
 }
 
 #pages {
@@ -137,18 +178,22 @@ h2 {
 	font-weight: bold;
 }
 
+h5 {
+	margin-left: 7px;
+}
+
 p {
 	line-height: 28px;
 	color: #333333;
 }
 
 address {
-	font-size:155%;
+	font-size:110%;
 	line-height: 32px;
 	margin-left: 7px;
 	font-style: normal;
-	font-weight: bold;
-	color: white;
+	/*font-weight: bold;*/
+	color: #333333;
 } 
 	
 

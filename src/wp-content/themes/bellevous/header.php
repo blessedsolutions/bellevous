@@ -27,6 +27,7 @@
 				</ul>
 			</div>
 		</div>
+		<div id="SiteTelephoneNumber">Book now on: 020 3674 8697</div>
 		<div class="break"></div>
 		
 		<div id="content">
