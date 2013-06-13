@@ -1,12 +1,12 @@
-AuthUserFile /home/supanath/.htpasswds/bellevous/live/.htpasswd
-AuthGroupFile /dev/null
-AuthName secure
-AuthType Basic
+#AuthUserFile /home/supanath/.htpasswds/bellevous/live/.htpasswd
+#AuthGroupFile /dev/null
+#AuthName secure
+#AuthType Basic
 
-require user bellevousdevadmin
+#require user bellevousdevadmin
 
-order allow,deny
-allow from all
+#order allow,deny
+#allow from all
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
